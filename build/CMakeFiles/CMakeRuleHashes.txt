@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+63a0db93c2a6144eae18fbafa975d07e CMakeFiles/shaders
+680a07f5fdb6dc78866a76687cda1ff1 external/glfw/CMakeFiles/uninstall
+2443bce8d429cc020a0470e93018b8dc external/glfw/docs/html/index.html
+e450de88c4bcfe66a45ca9529ab1adf1 external/glfw/src/CMakeFiles/update_mappings
+27024b6b33cfe4c0c0262ea6aed6c59b shaders/fragment_shader.frag.spv
+4f82b5b2ff8af3c0bd8198881c65c8f9 shaders/vertex_shader.vert.spv
