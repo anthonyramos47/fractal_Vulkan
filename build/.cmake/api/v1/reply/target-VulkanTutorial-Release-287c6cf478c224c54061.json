@@ -66,6 +66,12 @@
 	"compileGroups" : 
 	[
 		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				}
+			],
 			"defines" : 
 			[
 				{
@@ -116,6 +122,10 @@
 	{
 		"commandFragments" : 
 		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
 			{
 				"fragment" : "",
 				"role" : "flags"

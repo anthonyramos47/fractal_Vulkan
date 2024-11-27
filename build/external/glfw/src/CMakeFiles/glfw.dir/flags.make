@@ -6,7 +6,7 @@ C_DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
 
 C_INCLUDES = -I/home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/include -I/home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src -I/home/anthony/KAUSTLocal/fractal_Vulkan/build/external/glfw/src
 
-C_FLAGS = -fPIC -Wall -std=c99
+C_FLAGS = -O3 -DNDEBUG -fPIC -Wall -std=c99
 
 # Custom flags: external/glfw/src/CMakeFiles/glfw.dir/context.c.o_FLAGS = -Wdeclaration-after-statement
 

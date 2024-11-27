@@ -1,1 +1,1 @@
-/usr/bin/g++ CMakeFiles/VulkanTutorial.dir/src/main.cpp.o CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.o -o VulkanTutorial  /usr/lib/x86_64-linux-gnu/libvulkan.so external/glfw/src/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/VulkanTutorial.dir/src/main.cpp.o CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.o -o VulkanTutorial  /usr/lib/x86_64-linux-gnu/libvulkan.so external/glfw/src/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 

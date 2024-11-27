@@ -108,7 +108,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-fPIC"
+					"fragment" : "-O3 -DNDEBUG -fPIC"
 				},
 				{
 					"backtrace" : 3,
@@ -177,7 +177,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-fPIC"
+					"fragment" : "-O3 -DNDEBUG -fPIC"
 				},
 				{
 					"backtrace" : 3,

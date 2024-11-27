@@ -6,5 +6,5 @@ CXX_DEFINES = -DSHADER_BINARY_DIR=\"/home/anthony/KAUSTLocal/fractal_Vulkan/buil
 
 CXX_INCLUDES = -I/home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/include -I/home/anthony/KAUSTLocal/fractal_Vulkan/external/glm
 
-CXX_FLAGS = 
+CXX_FLAGS = -O3 -DNDEBUG
 

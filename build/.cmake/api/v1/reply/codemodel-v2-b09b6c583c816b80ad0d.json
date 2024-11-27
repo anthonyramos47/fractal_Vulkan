@@ -12,7 +12,7 @@
 						4
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.13"
@@ -33,7 +33,7 @@
 						3
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-external.glfw-111a28c4e3555465a95c.json",
+					"jsonFile" : "directory-external.glfw-Release-111a28c4e3555465a95c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -49,7 +49,7 @@
 				{
 					"build" : "external/glfw/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-external.glfw.src-bef68817ccc5d7cb558e.json",
+					"jsonFile" : "directory-external.glfw.src-Release-bef68817ccc5d7cb558e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -65,7 +65,7 @@
 				},
 				{
 					"build" : "external/glfw/docs",
-					"jsonFile" : "directory-external.glfw.docs-f0e895ac941a6ff9bbfe.json",
+					"jsonFile" : "directory-external.glfw.docs-Release-f0e895ac941a6ff9bbfe.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -84,7 +84,7 @@
 					[
 						5
 					],
-					"jsonFile" : "directory-external.glm-a6dc993d5209625b6587.json",
+					"jsonFile" : "directory-external.glm-Release-a6dc993d5209625b6587.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.2"
@@ -95,7 +95,7 @@
 				},
 				{
 					"build" : "external/glm/glm",
-					"jsonFile" : "directory-external.glm.glm-32a2ad45a04345e60681.json",
+					"jsonFile" : "directory-external.glm.glm-Release-32a2ad45a04345e60681.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.2"
@@ -105,7 +105,7 @@
 					"source" : "external/glm/glm"
 				}
 			],
-			"name" : "",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -157,42 +157,42 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "VulkanTutorial::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-VulkanTutorial-d4b076749516d7701b8a.json",
+					"jsonFile" : "target-VulkanTutorial-Release-287c6cf478c224c54061.json",
 					"name" : "VulkanTutorial",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "docs::@38dce7a113d824fc0c34",
-					"jsonFile" : "target-docs-6bbdaa412a6a82af43db.json",
+					"jsonFile" : "target-docs-Release-6bbdaa412a6a82af43db.json",
 					"name" : "docs",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@ca12bac854c2ac6b2230",
-					"jsonFile" : "target-glfw-5e82074a2d8a722c3584.json",
+					"jsonFile" : "target-glfw-Release-75602aa9e927288d5293.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "shaders::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-shaders-7a782a025b7d07de57f9.json",
+					"jsonFile" : "target-shaders-Release-7a782a025b7d07de57f9.json",
 					"name" : "shaders",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "uninstall::@691b517da5fa0f694cd4",
-					"jsonFile" : "target-uninstall-9b711a0dc5782015bc4e.json",
+					"jsonFile" : "target-uninstall-Release-9b711a0dc5782015bc4e.json",
 					"name" : "uninstall",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "update_mappings::@ca12bac854c2ac6b2230",
-					"jsonFile" : "target-update_mappings-30ea10eb1cae3322a005.json",
+					"jsonFile" : "target-update_mappings-Release-30ea10eb1cae3322a005.json",
 					"name" : "update_mappings",
 					"projectIndex" : 1
 				}

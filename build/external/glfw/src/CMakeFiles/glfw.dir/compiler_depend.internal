@@ -33,7 +33,6 @@ external/glfw/src/CMakeFiles/glfw.dir/context.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -79,7 +78,6 @@ external/glfw/src/CMakeFiles/glfw.dir/context.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -99,8 +97,6 @@ external/glfw/src/CMakeFiles/glfw.dir/context.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -123,7 +119,6 @@ external/glfw/src/CMakeFiles/glfw.dir/context.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -171,8 +166,6 @@ external/glfw/src/CMakeFiles/glfw.dir/context.c.o
  /usr/include/assert.h
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h
  /usr/include/limits.h
@@ -212,7 +205,6 @@ external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -258,7 +250,6 @@ external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -278,8 +269,6 @@ external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -302,7 +291,6 @@ external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -349,15 +337,11 @@ external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/posix_time.h
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /usr/include/stdlib.h
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/assert.h
 
 external/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o
@@ -392,7 +376,6 @@ external/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -438,7 +421,6 @@ external/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -458,8 +440,6 @@ external/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -482,7 +462,6 @@ external/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -529,15 +508,11 @@ external/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/posix_time.h
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /usr/include/stdlib.h
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/assert.h
 
 external/glfw/src/CMakeFiles/glfw.dir/init.c.o
@@ -572,7 +547,6 @@ external/glfw/src/CMakeFiles/glfw.dir/init.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -618,7 +592,6 @@ external/glfw/src/CMakeFiles/glfw.dir/init.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -638,8 +611,6 @@ external/glfw/src/CMakeFiles/glfw.dir/init.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -662,7 +633,6 @@ external/glfw/src/CMakeFiles/glfw.dir/init.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -709,15 +679,11 @@ external/glfw/src/CMakeFiles/glfw.dir/init.c.o
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/posix_time.h
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /usr/include/stdlib.h
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/assert.h
 
 external/glfw/src/CMakeFiles/glfw.dir/input.c.o
@@ -752,7 +718,6 @@ external/glfw/src/CMakeFiles/glfw.dir/input.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -798,7 +763,6 @@ external/glfw/src/CMakeFiles/glfw.dir/input.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -818,8 +782,6 @@ external/glfw/src/CMakeFiles/glfw.dir/input.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -842,7 +804,6 @@ external/glfw/src/CMakeFiles/glfw.dir/input.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -902,13 +863,9 @@ external/glfw/src/CMakeFiles/glfw.dir/input.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
 
 external/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.c
@@ -942,7 +899,6 @@ external/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -988,7 +944,6 @@ external/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -1008,8 +963,6 @@ external/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -1032,7 +985,6 @@ external/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -1085,7 +1037,6 @@ external/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o
  /usr/include/fcntl.h
  /usr/include/x86_64-linux-gnu/bits/fcntl.h
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h
- /usr/include/x86_64-linux-gnu/bits/fcntl2.h
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
  /usr/include/linux/errno.h
@@ -1101,13 +1052,9 @@ external/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
 
 external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/monitor.c
@@ -1141,7 +1088,6 @@ external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -1187,7 +1133,6 @@ external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -1207,8 +1152,6 @@ external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -1231,7 +1174,6 @@ external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -1288,15 +1230,11 @@ external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o
  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /usr/include/stdlib.h
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h
  /usr/include/limits.h
@@ -1336,7 +1274,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -1382,7 +1319,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -1402,8 +1338,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -1426,7 +1360,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -1475,9 +1408,7 @@ external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
 
 external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.c
@@ -1511,7 +1442,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -1557,7 +1487,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -1577,8 +1506,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -1601,7 +1528,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -1679,7 +1605,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -1725,7 +1650,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -1745,8 +1669,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -1769,7 +1691,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -1818,13 +1739,9 @@ external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /usr/include/math.h
  /usr/include/x86_64-linux-gnu/bits/math-vector.h
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
@@ -1866,7 +1783,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -1912,7 +1828,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -1932,8 +1847,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -1956,7 +1869,6 @@ external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -2005,9 +1917,7 @@ external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
 
 external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/osmesa_context.c
@@ -2047,7 +1957,6 @@ external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
@@ -2055,15 +1964,11 @@ external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/string.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /usr/include/assert.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/internal.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/include/GLFW/glfw3.h
@@ -2080,7 +1985,6 @@ external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -2121,8 +2025,6 @@ external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -2145,7 +2047,6 @@ external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -2221,7 +2122,6 @@ external/glfw/src/CMakeFiles/glfw.dir/platform.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -2267,7 +2167,6 @@ external/glfw/src/CMakeFiles/glfw.dir/platform.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -2287,8 +2186,6 @@ external/glfw/src/CMakeFiles/glfw.dir/platform.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -2311,7 +2208,6 @@ external/glfw/src/CMakeFiles/glfw.dir/platform.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -2389,7 +2285,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -2435,7 +2330,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -2455,8 +2349,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -2479,7 +2371,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -2559,7 +2450,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/linux/close_range.h
  /usr/include/signal.h
@@ -2607,7 +2497,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -2628,8 +2517,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -2652,7 +2539,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -2737,7 +2623,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -2783,7 +2668,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -2803,8 +2687,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -2827,7 +2709,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -2875,8 +2756,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o
  /usr/include/assert.h
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
 
 external/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/posix_time.c
@@ -2910,7 +2789,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -2956,7 +2834,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -2976,8 +2853,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -3000,7 +2875,6 @@ external/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -3078,7 +2952,6 @@ external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -3124,7 +2997,6 @@ external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -3144,8 +3016,6 @@ external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -3168,7 +3038,6 @@ external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -3216,15 +3085,11 @@ external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o
  /usr/include/assert.h
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /usr/include/stdlib.h
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
 
 external/glfw/src/CMakeFiles/glfw.dir/window.c.o
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/window.c
@@ -3258,7 +3123,6 @@ external/glfw/src/CMakeFiles/glfw.dir/window.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -3304,7 +3168,6 @@ external/glfw/src/CMakeFiles/glfw.dir/window.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -3324,8 +3187,6 @@ external/glfw/src/CMakeFiles/glfw.dir/window.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -3348,7 +3209,6 @@ external/glfw/src/CMakeFiles/glfw.dir/window.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -3396,15 +3256,11 @@ external/glfw/src/CMakeFiles/glfw.dir/window.c.o
  /usr/include/assert.h
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /usr/include/stdlib.h
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h
 
 external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o
@@ -3439,7 +3295,6 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -3485,7 +3340,6 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -3505,8 +3359,6 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -3529,7 +3381,6 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -3578,13 +3429,9 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h
  /usr/include/limits.h
@@ -3598,7 +3445,6 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h
  /usr/include/x86_64-linux-gnu/bits/stat.h
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h
- /usr/include/x86_64-linux-gnu/bits/fcntl2.h
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
  /usr/include/linux/errno.h
@@ -3639,7 +3485,6 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -3685,7 +3530,6 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -3705,8 +3549,6 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -3729,7 +3571,6 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -3784,13 +3625,9 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /usr/include/math.h
  /usr/include/x86_64-linux-gnu/bits/math-vector.h
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
@@ -3832,7 +3669,6 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -3878,7 +3714,6 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -3898,8 +3733,6 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -3922,7 +3755,6 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
@@ -3971,15 +3803,11 @@ external/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o
  /usr/include/X11/Xmd.h
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /usr/include/stdlib.h
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h
  /usr/include/limits.h
@@ -4026,7 +3854,6 @@ external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
- /usr/include/x86_64-linux-gnu/bits/unistd.h
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
  /usr/include/signal.h
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h
@@ -4072,7 +3899,6 @@ external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/X11/X.h
  /usr/include/X11/Xfuncproto.h
  /usr/include/X11/Xosdefs.h
@@ -4092,8 +3918,6 @@ external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/X11/extensions/Xrandr.h
  /usr/include/X11/extensions/randr.h
  /usr/include/X11/extensions/Xrender.h
@@ -4116,7 +3940,6 @@ external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o
  /usr/include/poll.h
  /usr/include/x86_64-linux-gnu/sys/poll.h
  /usr/include/x86_64-linux-gnu/bits/poll.h
- /usr/include/x86_64-linux-gnu/bits/poll2.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/null_joystick.h
  /home/anthony/KAUSTLocal/fractal_Vulkan/external/glfw/src/linux_joystick.h
  /usr/include/linux/input.h
