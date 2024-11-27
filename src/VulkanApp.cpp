@@ -11,11 +11,12 @@
 
 
 
-float logZoom = log(10.0f); // Reset logZoom
-float ZOOM = 10.0f; // Initial zoom level
+
+float ZOOM = 1.0f; // Initial zoom level
 bool isCameraMoving = false; // Tracks whether the camera should move
 float lastX = 0, lastY = 0; // Initial mouse position (can be the center of the screen)
 float centerX = 0.0f, centerY = 0.0f; // Center of the fractal
+int ITERATIONS = 1; // Maximum number of iterations for the fractal
 bool firstMouse = true; // For ignoring the initial jump in mouse movement
 bool ActivateZoom = false;
 float zoomLevel = 1.0f;
@@ -69,10 +70,18 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
 
     // Zoom controls
     if (key == GLFW_KEY_UP && action == GLFW_PRESS) {
-        logZoom += 0.1f;
+        ZOOM *= 1.1f;
     }
     if (key == GLFW_KEY_DOWN && action == GLFW_PRESS) {
-        logZoom -= 0.9f;
+        ZOOM *= 0.99f;
+    }
+
+    // Iterations controls
+    if (key == GLFW_KEY_I && action == GLFW_PRESS) {
+        ITERATIONS += 1;
+    }
+    if (key == GLFW_KEY_K && action == GLFW_PRESS) {
+        ITERATIONS -= 1;
     }
 }
 
@@ -95,6 +104,9 @@ void scrollCallback(GLFWwindow* window, double xoffset, double yoffset) {
 
     // Apply zoom factor
     ZOOM *= zoomFactor;
+
+    // Print zoom level for debugging
+    std::cout << "Zoom level: " << ZOOM << std::endl;
 }
 
 // Callback for mouse button events
@@ -126,11 +138,14 @@ void mouse_callback(GLFWwindow* window, double xpos, double ypos) {
     lastX = xpos;
     lastY = ypos;
 
-    ZOOM = exp(logZoom); // Update the zoom level
+    float zoo = pow(ZOOM,8);
+
+    // Print direction for debugging
+    std::cout << "xdir: " << xdir*zoo << " ydir: " << ydir*zoo << std::endl;
 
     // Move the fractal center, scaled by zoom level for finer control at high zooms
-    centerX -= xdir / ZOOM;
-    centerY += ydir / ZOOM;
+    centerX -= xdir/zoo;
+    centerY += ydir/zoo; 
 }
 
 void VulkanApp::createSurface() {
@@ -926,6 +941,7 @@ void VulkanApp::recordCommandBuffer(VkCommandBuffer commandBuffer, uint32_t imag
     renderPassInfo.renderArea.offset = {0, 0};
     renderPassInfo.renderArea.extent = swapChainExtent;
 
+
     // Clear the color attachment to black
     VkClearValue clearColor = {{{0.0f, 0.0f, 0.0f, 1.0f}}};
     renderPassInfo.clearValueCount = 1;
@@ -965,7 +981,7 @@ void VulkanApp::recordCommandBuffer(VkCommandBuffer commandBuffer, uint32_t imag
         vkCmdSetScissor(commandBuffer, 0, 1, &scissor);
 
         // Bind the vertex buffer
-        vkCmdDraw(commandBuffer, 3, 1, 0, 0);
+        vkCmdDraw(commandBuffer, 4, 1, 0, 0);
 
     // End the render pass
     vkCmdEndRenderPass(commandBuffer);
@@ -1080,9 +1096,10 @@ void VulkanApp::drawFrame(){
     ubo.u_resolution = glm::vec2(WIDTH, HEIGHT);
     if (ActivateZoom) {
 
-        ZOOM = pow(0.032*(ZOOM*1.1), 0.032*(ZOOM*1.1)/10);
+        ZOOM += 0.1;
     }
-    ubo.zoom = exp(logZoom);
+    ubo.zoom = ZOOM;
+    ubo.iterations = ITERATIONS;
     
     void* data;
     vkMapMemory(device, fractal2DUboBufferMemory, 0, sizeof(ubo), 0, &data);

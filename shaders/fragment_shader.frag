@@ -1,7 +1,7 @@
 #version 450
 
 // Constants
-const int MAX_ITERATIONS = 1000;
+//const int MAX_ITERATIONS = 2000;
 
 
 
@@ -10,6 +10,7 @@ layout(binding = 0) uniform ubo {
     vec2 RESOLUTION;
     vec2 CENTER;
     float ZOOM;
+    int MAX_ITERATIONS;
 };
 
 const vec4 color1 = vec4(0.2, 0.0, 0.0, 1.0);
@@ -24,39 +25,45 @@ vec4 blend(vec4 a, vec4 b, float factor) {
     return vec4(color, 1.0);
 }
 
+vec2 complexMul(vec2 a, vec2 b) {
+    return vec2(a.x * b.x - a.y * b.y, a.x * b.y + a.y * b.x);
+}
+
+
+float mandelbrot(vec2 c) {
+    vec2 z = vec2(0.0, 0.0);
+    float it = 0.0; // Iteration count
+    for (int i = 0; i < MAX_ITERATIONS; i++) {
+        z = complexMul(z, z) + c;
+
+        if (dot(z, z) > 256.0*256.0) break;
+        it+=1.0;
+    }
+
+    // If the iteration count is greater than the maximum, the point is in the set
+    if (it > 999.0 ) {
+        return 0.0;
+    }
+
+    // Smooth coloring calculation
+    float sit = it - log2(log2(dot(z, z))) + 4.0;
+
+    return sit;  
+}
+
 
 void main() {
     // Map pixel coordinates to the complex plane
-    vec2 c = 2 * (gl_FragCoord.xy - 0.5 * RESOLUTION) / ZOOM + CENTER;
+    vec2 p = (2*gl_FragCoord.xy - RESOLUTION) / RESOLUTION.y;
     vec2 z = vec2(0.0, 0.0); // Starting point in the complex plane
-
-    // Initialize iteration count
-    int iterations = 0;
-    float smoothIteration = 0.0;
-
-    // Mandelbrot iteration loop
-    while (iterations < MAX_ITERATIONS && dot(z, z) < 4.0) {
-        z = vec2(
-            z.x * z.x - z.y * z.y + c.x, // Real part
-            2.0 * z.x * z.y + c.y         // Imaginary part
-        );
-        iterations++;
-    }
-
-
-     // Smooth coloring calculation
-    if (iterations < MAX_ITERATIONS) {
-        // Calculate the fractional escape value for smoothing
-        float log_zn = log(dot(z, z)) / 2.0;
-        float nu = log(log_zn / log(2.0)) / log(2.0);
-        smoothIteration = float(iterations) + 1.0 - nu;
-    } else {
-        smoothIteration = float(MAX_ITERATIONS);
-    }
-
-    // Map smoothed iteration to color (you can modify this for different color schemes)
-    float colorValue = smoothIteration / float(MAX_ITERATIONS);
     
+    float zoo = exp(- ZOOM * log(2.0)) ;
+    vec2 c = CENTER + (p)*zoo;
 
-    fragColor = blend(color1, color2, colorValue);
+    float smoothIteration = mandelbrot(c);
+   
+    // Map smoothed iteration to color (you can modify this for different color schemes)
+    vec3 col = 0.5 + 0.5*cos((3.0 + smoothIteration*0.15)*vec3(1.0,1.0,1.0) + vec3(0.0, 0.6, 1.0));
+
+    fragColor = vec4(col, 1.0);
 }

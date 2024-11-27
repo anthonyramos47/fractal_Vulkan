@@ -73,29 +73,29 @@ CMakeFiles/VulkanTutorial.dir/src/main.cpp.o: CMakeFiles/VulkanTutorial.dir/flag
 CMakeFiles/VulkanTutorial.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/VulkanTutorial.dir/src/main.cpp.o: CMakeFiles/VulkanTutorial.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anthony/KAUSTLocal/fractal_Vulkan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/VulkanTutorial.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VulkanTutorial.dir/src/main.cpp.o -MF CMakeFiles/VulkanTutorial.dir/src/main.cpp.o.d -o CMakeFiles/VulkanTutorial.dir/src/main.cpp.o -c /home/anthony/KAUSTLocal/fractal_Vulkan/src/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VulkanTutorial.dir/src/main.cpp.o -MF CMakeFiles/VulkanTutorial.dir/src/main.cpp.o.d -o CMakeFiles/VulkanTutorial.dir/src/main.cpp.o -c /home/anthony/KAUSTLocal/fractal_Vulkan/src/main.cpp
 
 CMakeFiles/VulkanTutorial.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/VulkanTutorial.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anthony/KAUSTLocal/fractal_Vulkan/src/main.cpp > CMakeFiles/VulkanTutorial.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anthony/KAUSTLocal/fractal_Vulkan/src/main.cpp > CMakeFiles/VulkanTutorial.dir/src/main.cpp.i
 
 CMakeFiles/VulkanTutorial.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/VulkanTutorial.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anthony/KAUSTLocal/fractal_Vulkan/src/main.cpp -o CMakeFiles/VulkanTutorial.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anthony/KAUSTLocal/fractal_Vulkan/src/main.cpp -o CMakeFiles/VulkanTutorial.dir/src/main.cpp.s
 
 CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.o: CMakeFiles/VulkanTutorial.dir/flags.make
 CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.o: ../src/VulkanApp.cpp
 CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.o: CMakeFiles/VulkanTutorial.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anthony/KAUSTLocal/fractal_Vulkan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.o -MF CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.o.d -o CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.o -c /home/anthony/KAUSTLocal/fractal_Vulkan/src/VulkanApp.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.o -MF CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.o.d -o CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.o -c /home/anthony/KAUSTLocal/fractal_Vulkan/src/VulkanApp.cpp
 
 CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anthony/KAUSTLocal/fractal_Vulkan/src/VulkanApp.cpp > CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anthony/KAUSTLocal/fractal_Vulkan/src/VulkanApp.cpp > CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.i
 
 CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anthony/KAUSTLocal/fractal_Vulkan/src/VulkanApp.cpp -o CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anthony/KAUSTLocal/fractal_Vulkan/src/VulkanApp.cpp -o CMakeFiles/VulkanTutorial.dir/src/VulkanApp.cpp.s
 
 # Object files for target VulkanTutorial
 VulkanTutorial_OBJECTS = \

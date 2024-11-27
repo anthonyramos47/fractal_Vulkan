@@ -17,8 +17,8 @@
 #include <algorithm>
 
 
-const uint32_t WIDTH = 800;
-const uint32_t HEIGHT = 600;
+const uint32_t WIDTH = 1024;
+const uint32_t HEIGHT = 768;
 
 void scrollCallback(GLFWwindow* window, double xoffset, double yoffset);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
@@ -30,7 +30,8 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
 struct UBO2DFractal {
     glm::vec2 u_resolution;
     glm::vec2 u_center;
-    float zoom;
+    double zoom;
+    int iterations;
 };
 
 const std::vector<const char*> validationLayers = {
